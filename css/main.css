@@ -316,12 +316,22 @@ nav{
     cursor: pointer;
     display: none;
 }
-
+body{
+    height: 100%;
+}
 @media( max-width: 640px){
     .menuToggle{
         display: block;
     }
     .menu{
         display: none;
+        position: absolute;
+        background: #3e2597;
+        width: 100%;
+        margin-left: -10px;
+        padding-left: 10px;
+    }
+    .menu li{
+        float: none;
     }
 }
